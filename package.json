@@ -1,0 +1,21 @@
+{
+  "name": "astro-jquery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc src/index.ts"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "jquery": "^3.7.0"
+  },
+  "devDependencies": {
+    "astro": "^2.5.3"
+  }
+}
